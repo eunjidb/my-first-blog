@@ -1,0 +1,20 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Confirm credentials</button>
+  </form>
+{% endblock %}
+
+
+<!--
+    <h1>Passwrod</h1>
+    <form method="POST" action="{% url 'post_auth' pk=post.pk %}" class="post-form">
+    {% csrf_token %}
+        <input class="login_input" name="password" type="password">
+        <button type="submit" class="save btn btn-default">Comfirm</button>
+    </form>
+
+>
