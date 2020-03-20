@@ -30,4 +30,4 @@ jobs:
       with:
         app-name: 'eunjiapp'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_43118db02f5c4311a1faef77d9b6e233 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_9e4862f90b2a4d93b40494a61d6e6e20 }}
